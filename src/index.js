@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LoginPage from './login';
 import SignupPage from './signup';
+import PaymentPage from './paymentPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SignupPage />
+    <PaymentPage />
   </React.StrictMode>
 );
 

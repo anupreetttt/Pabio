@@ -7,8 +7,7 @@ function LoginPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Call your login API endpoint with the entered username and password
-    // You can also perform validation on the username and password fields before calling the API
+   
   };
 
   return (

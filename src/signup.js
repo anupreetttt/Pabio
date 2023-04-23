@@ -8,8 +8,7 @@ function SignupPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Call your sign up API endpoint with the entered username, email, and password
-    // You can also perform validation on the fields before calling the API
+    
   };
 
   return (
