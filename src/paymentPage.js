@@ -22,8 +22,8 @@ const PaymentPage = () => {
         return (
             <>
                 <div>
-                    <label htmlFor="cardNumber">Card Number</label>
                     <input
+                    placeholder='Card Number'
                         type="text"
                         id="cardNumber"
                         value={cardNumber}
@@ -32,8 +32,8 @@ const PaymentPage = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="cardHolder">Card Holder</label>
                     <input
+                    placeholder='Card Holders Name'
                         type="text"
                         id="cardHolder"
                         value={cardHolder}
@@ -42,8 +42,8 @@ const PaymentPage = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="expiryDate">Expiry Date</label>
                     <input
+                    placeholder='Expiry Date'
                         type="text"
                         id="expiryDate"
                         value={expiryDate}
@@ -52,8 +52,8 @@ const PaymentPage = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="cvv">CVV</label>
                     <input
+                    placeholder='CVV'
                         type="text"
                         id="cvv"
                         value={cvv}
@@ -121,8 +121,8 @@ const PaymentPage = () => {
                     {renderPaymentFields()}
                 </div>
                 <div>
-                    <label htmlFor="streetAddress">Street Address</label>
                     <input
+                    placeholder='Street Address'
                         type="text"
                         id="streetAddress"
                         value={streetAddress}
@@ -131,8 +131,8 @@ const PaymentPage = () => {
                     />
                 </div>
                 <div>
-                    <label htmlFor="zipCode">Zip Code</label>
                     <input
+                    placeholder='Zip Code'
                         type="text"
                         id="zipCode"
                         value={zipCode}

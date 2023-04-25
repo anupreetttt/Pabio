@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./signupPage.css"; // Import the styles from a separate CSS file
+import "./signupPage.css"; 
 
 function SignupPage() {
   const [username, setUsername] = useState("");
@@ -8,32 +8,39 @@ function SignupPage() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    
+
   };
 
   return (
-    <div className="signup-page">
+    <div className="signup-page" style={{ backgroundColor: "#FFE6C7" }}>
       <h1>Sign up for Pabio</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Username:</label>
+
           <input
+            placeholder="First name"
             type="text"
-            value={username}
             onChange={(event) => setUsername(event.target.value)}
           />
         </div>
         <div>
-          <label>Email:</label>
           <input
+            placeholder="Last name"
+            type="text"
+            onChange={(event) => setEmail(event.target.value)}
+          />
+        </div>
+        <div>
+          <input
+            placeholder="Email"
             type="email"
             value={email}
             onChange={(event) => setEmail(event.target.value)}
           />
         </div>
         <div>
-          <label>Password:</label>
           <input
+          placeholder="Pasword"
             type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}

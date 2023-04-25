@@ -1,30 +1,32 @@
 import React, { useState } from "react";
-import "./LoginPage.css"; // Import the styles from a separate CSS file
-
+import "./LoginPage.css"; 
 function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
-   
+
   };
 
   return (
-    <div className="login-page">
+    <div className="login-page" style={{background: '#FFE6C7'}}>
       <h1>Pabio</h1>
+      <h2>Login here:</h2>
+
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Username:</label>
           <input
+            placeholder="Email"
             type="text"
             value={username}
             onChange={(event) => setUsername(event.target.value)}
           />
         </div>
         <div>
-          <label>Password:</label>
           <input
+            placeholder="Password"
+
             type="password"
             value={password}
             onChange={(event) => setPassword(event.target.value)}
