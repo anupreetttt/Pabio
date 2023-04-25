@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import LoginPage from './login';
 import SignupPage from './signup';
 import PaymentPage from './paymentPage';
+import OrderConfirmationPage from './orderConfirmation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PaymentPage />
+    <OrderConfirmationPage />
   </React.StrictMode>
 );
 
