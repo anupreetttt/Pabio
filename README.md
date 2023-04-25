@@ -1,3 +1,12 @@
+1. Our app Pabio works on a Sign in to use method where you would have to create an account in order to use the app. 
+2. In order for a user to begin using our app, he/she should create an account with their username and password and then log in. 
+3. From there the user will be greeted by the home page where they will have many different furniture categories, top deals that day in the app, and even the most wanted furniture that are recommended by other users. 
+4. From there the user can begin their journey of finding their perfect furniture to rent out and purchase it on the app hassle free.
+
+The work for the UI implementation was completed as a joint effort by everyone in the group as the work was split between evryone and the linking of the pages was done by AVi. The Readme file and Demo Script was written by Allen. Everyone did their fair share of work in the UI implementation. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
